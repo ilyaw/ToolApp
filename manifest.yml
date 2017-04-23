@@ -1,0 +1,17 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ToolApp
+  host: ToolApp
+  disk_quota: 1024M
+  services:
+  - WC (Watson Conversation)
+  - WTTS (Watson Text to Speech)
+  - WLT (Watson Language Translator)
+  - WDS (Watson Discovery Services)
+  - WNLC (Watson Natural Language Classifier)
+  - WNLU (Watson Natural Language Understanding)
+  env:
+    22ae1eb5-2bfd-4fa7-8dbf-ab9b3802bba4: OnyO4mXH7DYe
